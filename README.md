@@ -1,5 +1,7 @@
 # Windows 版 Crontab [JAVA]
 
+>关于文件编码，由于需要结合 windows 系统的命令行，所以源文件和配置文件都是GBK编码的，请注意。
+
 Crontab 是 Linux 的一个计划任务管理工具，你可以在那上面添加一些任务，在指定的时间让它在后台运行，经常用来定时清除系统或程序的缓存，可以定时执行任意的脚本等等，这些功能在 Linux 上都是非常有用的，尤其是当 Linux 做为服务器来用时。
 
 ##为什么 Windows 上没有一个呢
@@ -28,7 +30,7 @@ Crontab 是 Linux 的一个计划任务管理工具，你可以在那上面添�
 ##安装
 
 
-1. 安装 JDK
+1. 安装 [JDK](http://docs.oracle.com/javase/7/docs/webnotes/install/)
 2. 下载[nircmd](http://www.nirsoft.net/utils/nircmd.html)（它主要用来隐藏运行的命令界面），把它的可执行文件目录写入你的环境变量PATH中
 3. 下载本程序代码【待公开】；
 2. 将下载后的文件解压后放到你希望的一个目录下，比如我把它放在 C:\mylike 文件夹上
