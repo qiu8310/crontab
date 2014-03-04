@@ -32,7 +32,7 @@ Crontab 是 Linux 的一个计划任务管理工具，你可以在那上面添�
 
 1. 安装 [JDK](http://docs.oracle.com/javase/7/docs/webnotes/install/)
 2. 下载[nircmd](http://www.nirsoft.net/utils/nircmd.html)（它主要用来隐藏运行的命令界面），把它的可执行文件目录写入你的环境变量PATH中
-3. 下载本程序代码【待公开】；
+3. 下载本程序代码；
 2. 将下载后的文件解压后放到你希望的一个目录下，比如我把它放在 C:\mylike 文件夹上
 3. 修改 C:\mylike\Crontab-New\bin 下的三个 bat 文件，主要是修改里面的bin目录成你当前的bin目录
 4. 直接双击运行 crontab\_install.bat（主要是在Windows上添加了一个[计划任务](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/schtasks.mspx)），计划即启动完成。需要卸载的运行 crontab\_uninstall.bat就行， crontab.bat 是一个用户脚本，可以用来查看自己的计划任务，查看它的下次运行时间，同时还可以强制运行一个指定的任务
